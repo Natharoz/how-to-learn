@@ -9,11 +9,15 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+/*.header {*/
+  /*height: 100vh;*/
+  /*min-height: 600px;*/
+  /*max-height: 756px;*/
   /* выше установили ограничения для секции */
+/*}*/
+
+.page__header {
+  font-size: 72px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -28,4 +32,59 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.digits {
+  width: 1100px;
+  margin: 100px auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+}
+
+.section-title {
+  width: 60%;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  margin: 0;
+}
+
+.section-subtitle {
+  width: 60%;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.table {
+  width: 1100px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.table__cell {
+  width: 250px;
+  margin: 60px 0 0 0;
+}
+
+.table__heading {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 700;
+  margin: 0;
+}
+
+.table__text {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 20px 0 0 0;
 }
