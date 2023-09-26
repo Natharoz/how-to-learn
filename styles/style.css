@@ -9,21 +9,70 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*.header {*/
-  /*height: 100vh;*/
-  /*min-height: 600px;*/
-  /*max-height: 756px;*/
+.header {
+  border: 3px solid red;
+  background-color: #f2f2f2;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   /* выше установили ограничения для секции */
-/*}*/
+}
 
-.page__header {
-  font-size: 72px;
+.logo {
+  width: 228px;
+  height: 32px;
+  background-image: url(/images/logo_place_header.svg);
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__title {
+  width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  margin-left: 64px;
+  z-index: 2;
+}
+
+.header__subtitle {
+  font-size: 18px;
+  line-height: 25px;
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__main-illustration {
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  background-size: contain;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
+  right: 0;
+  top: 64px;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  margin: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -95,7 +144,7 @@
   flex-direction: column;
   align-items: center;
   border: 3px solid red;
-  background-color: black;
+  background-color: #000;
   color: white;
   overflow: hidden;
 }
@@ -127,7 +176,7 @@
 .triange {
   width: 877px;
   height: 877px;
-  background-color: blue;
+  background-color: #2f80ed;
   position: absolute;
   right: -210px;
 }
