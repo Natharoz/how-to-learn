@@ -7,7 +7,6 @@
 
 .header {
   background-color: #f2f2f2;
-  height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display: flex;
@@ -63,7 +62,6 @@
   background-repeat: no-repeat;
   right: 0;
   bottom: 0;
-  margin: 0;
   z-index: 1;
 }
 
@@ -74,13 +72,11 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  margin: 0;
   z-index: 0;
 }
 
 .description {
   padding: 100px 0 0 0;
-  display: flex;
 }
 
 .two-columns {
@@ -109,7 +105,6 @@
   margin: 0 0 30px 0;
   font-size: 24px;
   line-height: 34px;
-  font-weight: 400;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -197,8 +192,7 @@
 .feynman__subtitle {
   font-size: 36px;
   line-height: 51px;
-  font-weight: 400;
-  margin: 70px 0 0 0;
+  margin: 70px auto 0;
   text-align: center;
   z-index: 1;
 }
@@ -206,7 +200,6 @@
 .feynman__link {
   font-size: 36px;
   line-height: 51px;
-  font-weight: 400;
   position: absolute;
   right: 48px;
   top: 50%;
@@ -217,7 +210,7 @@
 }
 
 .kaufman {
-  padding: 90px auto;
+  padding: 90px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -229,15 +222,10 @@
 
 .section-title_theme-dark {
   color: #ffffff;
-  margin-top: 90px;
 }
 
 .section-subtitle_theme-dark {
   color: #ffffff;
-}
-
-.table_theme_dark {
-  margin-bottom: 90px;
 }
 
 .table__cell_theme_dark {
@@ -267,14 +255,14 @@
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
-  padding: 60px auto 40px auto;
+  padding: 60px 0 40px;
   display: flex;
 }
 
 .footer__columns {
   display: flex;
   width: 90%;
-  margin: 60px auto 40px auto;
+  margin: 0 auto;
   justify-content: space-between;
 }
 
@@ -287,7 +275,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: #ffffff;
 }
 
 .logo_place_footer {
@@ -297,8 +284,8 @@
 .footer__author {
   font-size: 18px;
   line-height: 25px;
-  font-weight: 400;
   margin: 18px 0;
+  color: #ffffff;
 }
 
 .footer__column_content_info {
@@ -314,13 +301,12 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  margin: 20px 0 16px 0;
+  margin: 20px 0 16px;
 }
 
 .footer__column-link {
   color: #ffffff;
   text-decoration: none;
-  display: flex;
 }
 
 .footer__column_content_social {
