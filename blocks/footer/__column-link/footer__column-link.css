@@ -2,6 +2,7 @@
   color: #ffffff;
   text-decoration: none;
   transition-duration: 0.3s;
+  opacity: 1;
 }
 
 .footer__column-link:hover {
